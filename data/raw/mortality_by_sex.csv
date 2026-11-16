@@ -1,34 +1,51 @@
-"Thyroid"
-"Recent Trends in U.S. Age-Adjusted Mortality Rates, 2000-2024"
-"By Sex, All Races / Ethnicities, All Ages"
-
-"Regression Line Segment Trends (shown on graph)"
-"Sex","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates"
-"Sex","Year Range","APC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Female","2000-2008","1.0","0.0","8.0","0.04","Rising"
-"Female","2008-2024","-0.3","-4.2","0.2","0.16","Not Significant"
-"Male","2000-2016","1.1","0.8","2.1","<0.01","Rising"
-"Male","2016-2024","-0.6","-2.9","0.3","0.18","Not Significant"
-
-
-"Recent 5 and 10 Year Trends"
-"Sex","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates"
-"Sex","Year Range","AAPC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Female","2015-2024","-0.3","-1.2","0.2","0.16","Not Significant"
-"Female","2020-2024","-0.3","-2.7","0.2","0.16","Not Significant"
-"Male","2015-2024","-0.4","-1.0","0.3","0.25","Not Significant"
-"Male","2020-2024","-0.6","-2.5","0.3","0.18","Not Significant"
-
-
-"Data Source:"
-"-U.S. Mortality Data (1969-2024), National Center for Health Statistics, CDC."
-"Methodology:"
-"-Rates are per 100,000 and are age-adjusted to the 2000 US Std Population (20 age groups - Census P25-1130)."
-"-The Annual Percent Change (APC) and Average Annual Percent Change (AAPC) estimates were calculated from the underlying rates using the Joinpoint Trend Analysis Software [https://surveillance.cancer.gov/joinpoint], Version 6.0, March 2026, National Cancer Institute using the default settings. The underlying rates supplied to Joinpoint were exported from SEER*Stat at the maximum available precision and included the standard error for the rate."
-"-The APC's/AAPC's direction is 'Rising' when the entire 95% confidence interval (C.I.) is above 0, 'Falling' when the entire 95% C.I. is lower than 0, otherwise, the trend is considered 'Not Significant'."
-"Race/Ethnicity Coding:"
-"-For more details on SEER race/ethnicity groupings, please see Race and Hispanic Ethnicity Changes [https://seer.cancer.gov/seerstat/variables/seer/race_ethnicity/]."
-"-Rates for American Indians/Alaska Natives only include cases that are in a Purchased/Referred Care Delivery Area (PRCDA). "
-"Cancer Site Coding:"
-"-Cancer site cause of death is defined using the SEER Cause of Death Recode 1969+ (03/01/2018) [https://seer.cancer.gov/codrecode/1969_d03012018/index.html]."
-Created by https://seer.cancer.gov/statistics-network/explorer/ on Sun Nov 15 2026.
+series,year,rate,lower_95ci,upper_95ci,modeled_rate,count
+"Female",2000,0.478047,0.444853,0.513119,0.467349,778
+"Female",2001,0.478033,0.445017,0.512906,0.472206,786
+"Female",2002,0.484900,0.451873,0.519761,0.477113,809
+"Female",2003,0.459595,0.427695,0.493306,0.482072,779
+"Female",2004,0.471660,0.439626,0.505479,0.487081,816
+"Female",2005,0.489563,0.456957,0.523944,0.492143,850
+"Female",2006,0.511016,0.477936,0.545847,0.497258,904
+"Female",2007,0.484084,0.452092,0.517808,0.502425,868
+"Female",2008,0.523582,0.490612,0.558256,0.507647,962
+"Female",2009,0.525063,0.492204,0.559612,0.506355,977
+"Female",2010,0.507650,0.475587,0.541382,0.505066,963
+"Female",2011,0.493833,0.462542,0.526769,0.503781,959
+"Female",2012,0.465503,0.435305,0.497331,0.502498,915
+"Female",2013,0.506918,0.475646,0.539799,0.501219,1012
+"Female",2014,0.509886,0.478711,0.542653,0.499944,1036
+"Female",2015,0.489101,0.458825,0.520949,0.498671,1010
+"Female",2016,0.529328,0.498109,0.562097,0.497402,1116
+"Female",2017,0.475961,0.446376,0.507094,0.496136,1003
+"Female",2018,0.508445,0.478355,0.540049,0.494874,1106
+"Female",2019,0.490241,0.461009,0.520967,0.493614,1090
+"Female",2020,0.475643,0.447038,0.505727,0.492358,1071
+"Female",2021,0.505286,0.475978,0.536063,0.491105,1154
+"Female",2022,0.509856,0.480657,0.540505,0.489855,1182
+"Female",2023,0.477128,0.449344,0.506329,0.488608,1142
+"Female",2024,0.477619,0.450365,0.506252,0.487365,1181
+"Male",2000,0.474416,0.434800,0.516572,0.452900,550
+"Male",2001,0.468875,0.430510,0.509679,0.457884,568
+"Male",2002,0.451698,0.414336,0.491464,0.462922,558
+"Male",2003,0.425226,0.389265,0.463555,0.468016,533
+"Male",2004,0.473755,0.435555,0.514325,0.473165,593
+"Male",2005,0.478741,0.440689,0.519123,0.478372,612
+"Male",2006,0.464464,0.427775,0.503405,0.483636,614
+"Male",2007,0.514474,0.476100,0.555064,0.488957,694
+"Male",2008,0.502837,0.465201,0.542656,0.494337,687
+"Male",2009,0.511047,0.473837,0.550372,0.499777,730
+"Male",2010,0.498829,0.462321,0.537425,0.505276,723
+"Male",2011,0.521170,0.484529,0.559838,0.510836,788
+"Male",2012,0.509697,0.473604,0.547797,0.516457,775
+"Male",2013,0.532661,0.496327,0.570952,0.522140,838
+"Male",2014,0.499514,0.464555,0.536406,0.527885,796
+"Male",2015,0.542462,0.506356,0.580468,0.533694,884
+"Male",2016,0.556821,0.520553,0.594961,0.539566,926
+"Male",2017,0.523952,0.489152,0.560592,0.536541,889
+"Male",2018,0.531379,0.496685,0.567883,0.533533,919
+"Male",2019,0.540001,0.505467,0.576308,0.530542,957
+"Male",2020,0.511530,0.478257,0.546553,0.527567,928
+"Male",2021,0.513680,0.480649,0.548439,0.524609,951
+"Male",2022,0.538854,0.505478,0.573920,0.521668,1022
+"Male",2023,0.511193,0.479369,0.544657,0.518744,1006
+"Male",2024,0.521758,0.489998,0.555122,0.515835,1048

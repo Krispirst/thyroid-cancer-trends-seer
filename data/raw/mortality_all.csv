@@ -1,30 +1,26 @@
-"Thyroid"
-"Recent Trends in U.S. Age-Adjusted Mortality Rates, 2000-2024"
-"By Sex, All Races / Ethnicities, All Ages"
-
-"Regression Line Segment Trends (shown on graph)"
-"Sex","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates"
-"Sex","Year Range","APC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Both Sexes","2000-2009","1.2","0.4","5.7","<0.01","Rising"
-"Both Sexes","2009-2024","-0.1","-2.0","0.2","0.53","Not Significant"
-
-
-"Recent 5 and 10 Year Trends"
-"Sex","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates"
-"Sex","Year Range","AAPC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Both Sexes","2015-2024","-0.1","-0.8","0.2","0.54","Not Significant"
-"Both Sexes","2020-2024","-0.1","-1.5","0.2","0.53","Not Significant"
-
-
-"Data Source:"
-"-U.S. Mortality Data (1969-2024), National Center for Health Statistics, CDC."
-"Methodology:"
-"-Rates are per 100,000 and are age-adjusted to the 2000 US Std Population (20 age groups - Census P25-1130)."
-"-The Annual Percent Change (APC) and Average Annual Percent Change (AAPC) estimates were calculated from the underlying rates using the Joinpoint Trend Analysis Software [https://surveillance.cancer.gov/joinpoint], Version 6.0, March 2026, National Cancer Institute using the default settings. The underlying rates supplied to Joinpoint were exported from SEER*Stat at the maximum available precision and included the standard error for the rate."
-"-The APC's/AAPC's direction is 'Rising' when the entire 95% confidence interval (C.I.) is above 0, 'Falling' when the entire 95% C.I. is lower than 0, otherwise, the trend is considered 'Not Significant'."
-"Race/Ethnicity Coding:"
-"-For more details on SEER race/ethnicity groupings, please see Race and Hispanic Ethnicity Changes [https://seer.cancer.gov/seerstat/variables/seer/race_ethnicity/]."
-"-Rates for American Indians/Alaska Natives only include cases that are in a Purchased/Referred Care Delivery Area (PRCDA). "
-"Cancer Site Coding:"
-"-Cancer site cause of death is defined using the SEER Cause of Death Recode 1969+ (03/01/2018) [https://seer.cancer.gov/codrecode/1969_d03012018/index.html]."
-Created by https://seer.cancer.gov/statistics-network/explorer/ on Sun Nov 15 2026.
+series,year,rate,lower_95ci,upper_95ci,modeled_rate,count
+"Both Sexes",2000,0.478084,0.452703,0.504513,0.463049,1328
+"Both Sexes",2001,0.479425,0.454213,0.505670,0.468391,1354
+"Both Sexes",2002,0.477519,0.452510,0.503550,0.473794,1367
+"Both Sexes",2003,0.448502,0.424516,0.473493,0.479260,1312
+"Both Sexes",2004,0.475535,0.450957,0.501108,0.484789,1409
+"Both Sexes",2005,0.485268,0.460615,0.510901,0.490381,1462
+"Both Sexes",2006,0.496013,0.471252,0.521741,0.496038,1518
+"Both Sexes",2007,0.497955,0.473404,0.523457,0.501761,1562
+"Both Sexes",2008,0.517486,0.492623,0.543287,0.507549,1649
+"Both Sexes",2009,0.523582,0.498805,0.549284,0.513404,1707
+"Both Sexes",2010,0.507700,0.483480,0.532833,0.512946,1686
+"Both Sexes",2011,0.510159,0.486209,0.535004,0.512488,1747
+"Both Sexes",2012,0.487434,0.464157,0.511596,0.512031,1690
+"Both Sexes",2013,0.522133,0.498291,0.546845,0.511575,1850
+"Both Sexes",2014,0.504803,0.481586,0.528877,0.511118,1832
+"Both Sexes",2015,0.515459,0.492121,0.539646,0.510662,1894
+"Both Sexes",2016,0.544195,0.520425,0.568802,0.510207,2042
+"Both Sexes",2017,0.496480,0.473969,0.519818,0.509752,1892
+"Both Sexes",2018,0.519287,0.496545,0.542841,0.509297,2025
+"Both Sexes",2019,0.514592,0.492177,0.537807,0.508843,2047
+"Both Sexes",2020,0.490488,0.468864,0.512899,0.508389,1999
+"Both Sexes",2021,0.510276,0.488339,0.532995,0.507935,2105
+"Both Sexes",2022,0.523388,0.501408,0.546136,0.507482,2204
+"Both Sexes",2023,0.494287,0.473278,0.516046,0.507029,2148
+"Both Sexes",2024,0.500430,0.479582,0.522012,0.506577,2229

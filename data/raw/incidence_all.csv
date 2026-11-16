@@ -1,35 +1,25 @@
-"Thyroid"
-"Recent Trends in SEER Age-Adjusted Incidence Rates, 2000-2023"
-"By Sex, Observed SEER Incidence Rate, All Races / Ethnicities, All Ages, All Stages"
-
-"Regression Line Segment Trends (shown on graph)"
-"Sex","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates"
-"Sex","Year Range","APC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Both Sexes","2000-2009","7.0","6.4","7.8","<0.01","Rising"
-"Both Sexes","2009-2014","2.1","0.8","3.8","<0.01","Rising"
-"Both Sexes","2014-2021","-1.8","-3.8","-1.1","0.02","Falling"
-"Both Sexes","2021-2023","3.9","-0.2","6.6","0.06","Not Significant"
-
-
-"Recent 5 and 10 Year Trends"
-"Sex","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates"
-"Sex","Year Range","AAPC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Both Sexes","2014-2023","-0.5","-1.1","-0.0","0.04","Falling"
-"Both Sexes","2019-2023","1.0","-0.4","2.1","0.11","Not Significant"
-
-
-"Data Source:"
-"-SEER Incidence Data, November 2025 Submission (1975-2023), SEER 21 registries [https://seer.cancer.gov/registries/terms.html]."
-"Methodology:"
-"-Rates are per 100,000 and are age-adjusted to the 2000 US Std Population (20 age groups - Census P25-1130)."
-"-The Annual Percent Change (APC) and Average Annual Percent Change (AAPC) estimates were calculated from the underlying rates using the Joinpoint Trend Analysis Software [https://surveillance.cancer.gov/joinpoint], Version 6.0, March 2026, National Cancer Institute using the default settings. The underlying rates supplied to Joinpoint were exported from SEER*Stat at the maximum available precision and included the standard error for the rate."
-"-The APC's/AAPC's direction is 'Rising' when the entire 95% confidence interval (C.I.) is above 0, 'Falling' when the entire 95% C.I. is lower than 0, otherwise, the trend is considered 'Not Significant'."
-"-The 2020 incidence rate(s) were not used in the fit of the trend line(s) and are displayed on the graph as gray data points. Impact of COVID on SEER Cancer Incidence 2020 data [https://seer.cancer.gov/data/covid-impact.html]"
-"Race/Ethnicity Coding:"
-"-For more details on SEER race/ethnicity groupings, please see Race and Hispanic Ethnicity Changes [https://seer.cancer.gov/seerstat/variables/seer/race_ethnicity/]."
-"-Rates for American Indians/Alaska Natives only include cases that are in a Purchased/Referred Care Delivery Area (PRCDA). "
-"-Incidence data for Hispanics and Non-Hispanics are based on the NAACCR Hispanic Latino Identification Algorithm (NHIA). "
-"Cancer Site Coding:"
-"-See SEER*Explorer Cancer Site Definitions [https://seer.cancer.gov/statistics-network/explorer/cancer-sites.html] for details about the cancer site coding used for SEER Incidence data."
-"-Stage at diagnosis is calculated using the Combined Summary Stage (2004+) recode, created from SEER Combined Summary Stage 2000 (2004-2017) & Derived Summary Stage 2018 (2018+). For more information, see the SEER documentation [https://seer.cancer.gov/seerstat/variables/seer/lrd-stage]."
-Created by https://seer.cancer.gov/statistics-network/explorer/ on Sun Nov 15 2026.
+series,year,rate,lower_95ci,upper_95ci,modeled_rate,count
+"Both Sexes",2000,7.647520,7.495276,7.802081,7.523437,9630
+"Both Sexes",2001,8.010948,7.856225,8.167955,8.049659,10231
+"Both Sexes",2002,8.732337,8.571652,8.895281,8.612688,11282
+"Both Sexes",2003,8.990963,8.828937,9.155220,9.215097,11775
+"Both Sexes",2004,9.770090,9.601929,9.940460,9.859641,12938
+"Both Sexes",2005,10.692356,10.517210,10.869691,10.549268,14323
+"Both Sexes",2006,11.193608,11.015358,11.374023,11.287131,15198
+"Both Sexes",2007,11.971188,11.787627,12.156891,12.076602,16443
+"Both Sexes",2008,12.999277,12.809241,13.191427,12.921293,18152
+"Both Sexes",2009,13.936103,13.740248,14.134050,13.825065,19721
+"Both Sexes",2010,13.961678,13.766699,14.158727,14.114412,20053
+"Both Sexes",2011,14.394834,14.198006,14.593708,14.409814,20998
+"Both Sexes",2012,14.856194,14.656983,15.057434,14.711399,21881
+"Both Sexes",2013,15.214780,15.014385,15.417179,15.019296,22747
+"Both Sexes",2014,15.239196,15.039555,15.440822,15.333637,23068
+"Both Sexes",2015,15.333755,15.134484,15.534992,15.061461,23508
+"Both Sexes",2016,14.682428,14.488199,14.878606,14.794117,22751
+"Both Sexes",2017,13.908692,13.720573,14.098743,14.531517,21778
+"Both Sexes",2018,14.179749,13.990340,14.371079,14.273579,22340
+"Both Sexes",2019,14.451165,14.260530,14.643711,14.020220,22925
+"Both Sexes",2020,12.043129,11.869720,12.218438,13.771357,19247
+"Both Sexes",2021,13.713892,13.528963,13.900720,13.526912,21968
+"Both Sexes",2022,13.656778,13.473264,13.842172,14.051066,22118
+"Both Sexes",2023,14.787332,14.596983,14.979545,14.595530,24091

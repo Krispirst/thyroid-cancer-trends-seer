@@ -1,40 +1,49 @@
-"Thyroid"
-"Recent Trends in SEER Age-Adjusted Incidence Rates, 2000-2023"
-"By Sex, Observed SEER Incidence Rate, All Races / Ethnicities, All Ages, All Stages"
-
-"Regression Line Segment Trends (shown on graph)"
-"Sex","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates","Annual Percent Change (APC) Estimates"
-"Sex","Year Range","APC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Female","2000-2009","7.1","6.5","8.0","<0.01","Rising"
-"Female","2009-2014","2.1","0.7","3.8","<0.01","Rising"
-"Female","2014-2021","-2.0","-4.0","-1.3","0.02","Falling"
-"Female","2021-2023","4.0","-0.3","6.8","0.07","Not Significant"
-"Male","2000-2009","6.5","5.2","10.2","<0.01","Rising"
-"Male","2009-2013","2.7","-0.1","7.1","0.05","Not Significant"
-"Male","2013-2023","-0.2","-1.7","0.5","0.41","Not Significant"
-
-
-"Recent 5 and 10 Year Trends"
-"Sex","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates","Average Annual Percent Change (AAPC) Estimates"
-"Sex","Year Range","AAPC (%)","Lower 95% C.I.","Upper 95% C.I.","P-Value","Direction"
-"Female","2014-2023","-0.7","-1.3","-0.1","0.01","Falling"
-"Female","2019-2023","1.0","-0.5","2.1","0.14","Not Significant"
-"Male","2014-2023","-0.2","-0.7","0.3","0.46","Not Significant"
-"Male","2019-2023","-0.2","-1.3","0.5","0.41","Not Significant"
-
-
-"Data Source:"
-"-SEER Incidence Data, November 2025 Submission (1975-2023), SEER 21 registries [https://seer.cancer.gov/registries/terms.html]."
-"Methodology:"
-"-Rates are per 100,000 and are age-adjusted to the 2000 US Std Population (20 age groups - Census P25-1130)."
-"-The Annual Percent Change (APC) and Average Annual Percent Change (AAPC) estimates were calculated from the underlying rates using the Joinpoint Trend Analysis Software [https://surveillance.cancer.gov/joinpoint], Version 6.0, March 2026, National Cancer Institute using the default settings. The underlying rates supplied to Joinpoint were exported from SEER*Stat at the maximum available precision and included the standard error for the rate."
-"-The APC's/AAPC's direction is 'Rising' when the entire 95% confidence interval (C.I.) is above 0, 'Falling' when the entire 95% C.I. is lower than 0, otherwise, the trend is considered 'Not Significant'."
-"-The 2020 incidence rate(s) were not used in the fit of the trend line(s) and are displayed on the graph as gray data points. Impact of COVID on SEER Cancer Incidence 2020 data [https://seer.cancer.gov/data/covid-impact.html]"
-"Race/Ethnicity Coding:"
-"-For more details on SEER race/ethnicity groupings, please see Race and Hispanic Ethnicity Changes [https://seer.cancer.gov/seerstat/variables/seer/race_ethnicity/]."
-"-Rates for American Indians/Alaska Natives only include cases that are in a Purchased/Referred Care Delivery Area (PRCDA). "
-"-Incidence data for Hispanics and Non-Hispanics are based on the NAACCR Hispanic Latino Identification Algorithm (NHIA). "
-"Cancer Site Coding:"
-"-See SEER*Explorer Cancer Site Definitions [https://seer.cancer.gov/statistics-network/explorer/cancer-sites.html] for details about the cancer site coding used for SEER Incidence data."
-"-Stage at diagnosis is calculated using the Combined Summary Stage (2004+) recode, created from SEER Combined Summary Stage 2000 (2004-2017) & Derived Summary Stage 2018 (2018+). For more information, see the SEER documentation [https://seer.cancer.gov/seerstat/variables/seer/lrd-stage]."
-Created by https://seer.cancer.gov/statistics-network/explorer/ on Sun Nov 15 2026.
+series,year,rate,lower_95ci,upper_95ci,modeled_rate,count
+"Female",2000,11.221956,10.966002,11.482339,11.029879,7314
+"Female",2001,11.729513,11.469559,11.993838,11.815505,7748
+"Female",2002,12.798804,12.528628,13.073307,12.657089,8550
+"Female",2003,13.321993,13.047876,13.600388,13.558616,9014
+"Female",2004,14.403521,14.119534,14.691752,14.524356,9839
+"Female",2005,15.657977,15.363106,15.957056,15.558883,10818
+"Female",2006,16.590035,16.287951,16.896287,16.667097,11608
+"Female",2007,17.703579,17.392530,18.018761,17.854245,12509
+"Female",2008,19.276374,18.953500,19.603334,19.125950,13823
+"Female",2009,20.626623,20.293913,20.963385,20.488235,14970
+"Female",2010,20.672649,20.341032,21.008281,20.912279,15199
+"Female",2011,21.269708,20.935104,21.608285,21.345099,15877
+"Female",2012,22.098252,21.757664,22.442796,21.786878,16579
+"Female",2013,22.496525,22.154386,22.842584,22.237799,17090
+"Female",2014,22.573448,22.231761,22.919028,22.698054,17313
+"Female",2015,22.708687,22.366968,23.054276,22.248982,17573
+"Female",2016,21.666140,21.333679,22.002440,21.808794,16952
+"Female",2017,20.315747,19.994758,20.640554,21.377316,16008
+"Female",2018,20.837636,20.512999,21.166078,20.954374,16480
+"Female",2019,21.093109,20.766916,21.423096,20.539800,16745
+"Female",2020,17.392618,17.097291,17.691725,20.133428,13901
+"Female",2021,20.151203,19.833132,20.473059,19.735096,16107
+"Female",2022,19.844345,19.530235,20.162207,20.527095,16021
+"Female",2023,21.681551,21.354344,22.012478,21.350878,17628
+"Male",2000,3.933398,3.773095,4.098844,3.899022,2316
+"Male",2001,4.162615,3.998792,4.331503,4.154261,2483
+"Male",2002,4.522668,4.352913,4.697418,4.426208,2732
+"Male",2003,4.501189,4.332978,4.674324,4.715958,2761
+"Male",2004,5.001545,4.824558,5.183415,5.024675,3099
+"Male",2005,5.552120,5.367519,5.741509,5.353602,3505
+"Male",2006,5.566984,5.384005,5.754661,5.704061,3590
+"Male",2007,6.035486,5.845648,6.229968,6.077462,3934
+"Male",2008,6.495507,6.300538,6.695028,6.475307,4329
+"Male",2009,7.008073,6.806920,7.213713,6.899195,4751
+"Male",2010,7.025992,6.826141,7.230260,7.088154,4854
+"Male",2011,7.292013,7.089820,7.498556,7.282289,5121
+"Male",2012,7.405751,7.203801,7.611977,7.481740,5302
+"Male",2013,7.758602,7.553595,7.967818,7.686654,5657
+"Male",2014,7.743964,7.540892,7.951177,7.672167,5755
+"Male",2015,7.843163,7.640346,8.050060,7.657706,5935
+"Male",2016,7.591557,7.392735,7.794425,7.643273,5799
+"Male",2017,7.442826,7.247503,7.642138,7.628867,5770
+"Male",2018,7.462586,7.268254,7.660862,7.614488,5860
+"Male",2019,7.796428,7.598719,7.998045,7.600136,6180
+"Male",2020,6.688459,6.506198,6.874603,7.585812,5346
+"Male",2021,7.257501,7.068523,7.450338,7.571514,5861
+"Male",2022,7.454686,7.264552,7.648627,7.557243,6097
+"Male",2023,7.867246,7.672511,8.065752,7.542999,6463
